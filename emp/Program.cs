@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.CompilerServices;
 
 namespace emp
 {
@@ -32,9 +33,10 @@ namespace emp
             Console.WriteLine("Enter salary");
             employe2.Salary = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("==============================");
-            
-           
-            string fileName = @"C:\sujith\sample.txt";
+
+
+
+            string fileName = Directory.GetCurrentDirectory(); 
             using (StreamWriter writer = new StreamWriter(fileName))
             {
                 writer.WriteLine("\t\t\tOUTPUT");

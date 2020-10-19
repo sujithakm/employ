@@ -1,0 +1,5 @@
+			OUTPUT
+		==============================
+		||FNAME	LName	Age	Salary
+		||fgh	gf	67	89008
+		||fhgh	jk	56	789097

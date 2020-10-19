@@ -32,8 +32,21 @@ namespace employ
             Console.WriteLine("\t\t\tOUTPUT");
             Console.WriteLine("\t\t==============================");
 
-            Console.WriteLine("\t\t||FNAME\tLName\tAge\tSalary");
+            Console.WriteLine("\t\t||FNAME\tAddress\tAge\tSalary");
             
+
+            Console.Write("\t\t"+emp.getname());
+            Console.Write("\t" + emp.getaddress());
+            Console.Write("\t"+emp.getAge());
+            Console.Write("\t" + emp.getsalary());
+            Console.WriteLine("\n");
+            Console.Write("\t\t" + emp2.getname());
+            Console.Write("\t" + emp2.getaddress());
+            Console.Write("\t" + emp2.getAge());
+            Console.Write("\t" + emp2.getsalary());
+
+
+
 
 
 
